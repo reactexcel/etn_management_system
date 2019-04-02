@@ -1,4 +1,5 @@
 #ETN Management
+
 This app is build for bidding and selling notes. It has two user type logins - sales and middle office.
 sales users can bid/sell on notes. middle office users create and manage notes and exchanges.
 
