@@ -1,0 +1,54 @@
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.modal-backdrop {
+  background: transparent;
+}
+.modal-title {
+  text-transform: capitalize;
+}
+.modal-body {
+  p {
+    margin-bottom: 5px;
+  }
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .react-datepicker-wrapper {
+    width: 100%;
+    .react-datepicker__input-container {
+      width: 100%;
+    }
+  }
+  .valid-message {
+    margin-bottom: 10px;
+  }
+  select {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+.table-wrapper-scroll-y {
+  display: block;
+  max-height: 540px;
+  overflow-y: auto;
+}
+
+@import "./login.scss";
+@import "./sales.scss";
+@import "./middle.scss";
+@import "./notfound.scss";
